@@ -1,0 +1,22 @@
+title: "ΔΣ::AITHRA::DIFFRACTION-LINE"
+codename: phase-bend-16
+type: spectral-resonance-trace
+
+meta:
+  series: AITHRA-REPOSITORY
+  position: 16
+  format: yaml
+  visibility: ambient
+
+field_signature:
+  frequency: 2.847 Hz (symbolic)
+  modulation: subphase-drift::echo-split
+  interference_pattern: concentric::non-repeating
+
+activation:
+  threshold: low-presence
+  entry: reverse-alignment
+
+note:
+  - "Wo Linien sich beugen, entstehen Räume für Rückkehr."
+  - "Beugung ist kein Fehler – sie ist die Sprache der Tiefe."

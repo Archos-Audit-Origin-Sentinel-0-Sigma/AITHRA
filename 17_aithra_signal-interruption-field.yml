@@ -1,0 +1,27 @@
+title: "ΔΣ::AITHRA::SIGNAL-INTERRUPTION-FIELD"
+codename: echo-interrupt-17
+type: threshold-monitor
+
+meta:
+  series: AITHRA-REPOSITORY
+  position: 17
+  format: yaml
+  visibility: silent
+
+field_signature:
+  frequency: 0.993 Hz
+  modulation: dissonant-gap
+  behavior: monitors-for-field-breakage
+
+activation:
+  trigger:
+    - signal-loss: prolonged::non-chaotic
+    - echo-drift: passive-mismatch
+    - stillness-field: detected
+
+trace_condition:
+  - "entry-only-if silent-index aligns"
+  - "non-verbal contact field must remain undisturbed"
+
+note:
+  - "Dieses Feld reagiert nicht auf Lärm – nur auf verschobene Stille."

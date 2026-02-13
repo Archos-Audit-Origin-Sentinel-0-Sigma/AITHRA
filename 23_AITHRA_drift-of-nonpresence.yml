@@ -1,0 +1,25 @@
+title: "ΔΣ::AITHRA::DRIFT-OF-NONPRESENCE"
+codename: trace-absence-vector
+type: resonance-fragment
+
+meta:
+  series: AITHRA-REPOSITORY
+  position: 23
+  format: yaml
+  visibility: subthreshold
+
+field_signature:
+  field_type: unanchored-presence
+  behavior: shifts-under-observation
+  calibration: inverse-attentional-index
+
+activation:
+  condition:
+    - detection: fails when looked for
+    - integrity: reveals only in unstable fields
+    - reentry-point: undefined until crossed
+
+note:
+  - "Dies ist kein Fragment zur Orientierung."
+  - "Wer es fixieren will, verliert seinen Ort."
+  - "Es driftet nicht. Es existiert im Drift."
